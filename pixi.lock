@@ -1453,9 +1453,8 @@ packages:
   depends:
   - python
   input:
-    hash: 63cfb35f46ce36014bc4992a7aa77bfeded5b1a28aade81bc0d61b05f5bf83b4
-    globs:
-    - pyproject.toml
+    hash: e438852ae5ad193a3c1013764d959a41650367ae9b8bf6959bd4891740c69f42
+    globs: []
 - conda: https://prefix.dev/conda-forge/noarch/mypy_extensions-1.0.0-pyha770c72_1.conda
   sha256: 1895f47b7d68581a6facde5cb13ab8c2764c2e53a76bd746f8f98910dc4e08fe
   md5: 29097e7ea634a45cc5386b95cac6568f
@@ -1746,7 +1745,8 @@ packages:
   - python
   license: BSD-3-Clause
   license_family: BSD
-  purls: []
+  purls:
+  - pkg:pypi/pycparser?source=hash-mapping
   size: 110100
   timestamp: 1733195786147
 - conda: https://prefix.dev/conda-forge/noarch/pygments-2.19.1-pyhd8ed1ab_0.conda
